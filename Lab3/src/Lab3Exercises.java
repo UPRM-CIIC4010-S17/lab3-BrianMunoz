@@ -14,5 +14,6 @@ public class Lab3Exercises {
 		myframe.setLocation(screenSize.width/2,screenSize.height/2);
 		myframe.setSize(200, 200);
 		myframe.setVisible(true);
+		
 	}
 }
