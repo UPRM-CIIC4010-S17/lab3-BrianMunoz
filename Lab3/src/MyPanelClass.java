@@ -1,6 +1,8 @@
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Insets;
+
+
 import javax.swing.JPanel;
 
 public class MyPanelClass extends JPanel {
@@ -25,14 +27,27 @@ public class MyPanelClass extends JPanel {
         g.setColor(Color.BLUE);
         g.fillRect(x1, y1, width + 1, height + 1);
         
-        //Draw a border
-        g.setColor(Color.YELLOW);
-        g.drawRect(x1, y1, width, height);
-        
-        //Draw a second border
-        g.setColor(Color.ORANGE);
-        g.drawRect(x1 + 4, y1 + 4, width - 8, height - 8);
-        
-	}
+//        //Draw a border
+//        g.setColor(Color.YELLOW);
+//        g.drawRect(x1, y1, width, height);
+//        
+//        //Draw a second border
+//        g.setColor(Color.ORANGE);
+//        g.drawRect(x1 + 4, y1 + 4, width - 8, height - 8);
+//        
+//        //Draw diagonal line1
+//        g.setColor(Color.WHITE);
+//        g.drawLine(x1, y1, x2, y2);
+//        
+//        //Draw diagonal line2
+//        g.setColor(Color.RED);
+//        g.drawLine(x2, y1, x1, y2);
 
+          g.setColor(Color.LIGHT_GRAY);
+          g.fillOval(x1 + this.getWidth()/2 - 55/2, y1 + this.getHeight()/2 - 55/2,55, 55);
+    
+          
+
+	}
+	
 }
